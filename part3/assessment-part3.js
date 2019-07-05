@@ -13,7 +13,10 @@
 // return the result of your updateAnimal invocation
 
 // CODE HERE...
-
+function callBinding(magicAnimals, updateAnimal, id){
+   this.animal = updateAnimal.bind(this);
+   let animal = magicAnimals.find(())
+}
 
 
 // *************
@@ -28,7 +31,9 @@
 // return the result of your updateAnimal invocation
 
 // CODE HERE...
+function applyBinding(magicAnimals, updateAnimal, id) {
 
+}
 
 
 // *************
@@ -64,3 +69,16 @@ var foo;
 // and then resolve the array as you complete your promise.
 
 // CODE HERE...
+
+var request = require('request-promise')
+
+function emailList($q, $http)
+return request({
+    "method": "GET",
+    "uri": "https://'/api/users",
+    "json": true,
+    ""
+})
+
+
+
